@@ -15,8 +15,8 @@ with open("naive_bayes_model.pkl", "rb") as file:
 with open("tfidf_vectorizer.pkl", "rb") as file:
     vectorizer = pickle.load(file)
 # Streamlit app code
-st.title("Sentiment Analysis App")
-st.markdown("By Ankit Aggarwal")
+#st.title("Sentiment Analysis App")
+#st.markdown("By Ankit Aggarwal")
 image = Image.open("sentiment_analysis.jpg")
 st.image(image, use_column_width=True)
 
